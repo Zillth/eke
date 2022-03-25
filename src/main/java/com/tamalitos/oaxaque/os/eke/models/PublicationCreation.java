@@ -9,8 +9,7 @@ import java.sql.Date;
 @Getter
 @Setter
 @ToString
-public class Publication {
-    private int id;
+public class PublicationCreation {
     private String title;
     private String description;
     private Date publication_date;
